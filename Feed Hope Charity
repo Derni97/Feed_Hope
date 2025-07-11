@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feed Hope Charity</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <nav>
+      <div class="logo">Feed Hope Charity</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="appeals.html">Emergency Appeals</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+        <li><a href="donate.html" class="donate-btn">Donate</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <img src="https://cdn.abacus.ai/images/26060936-2e77-4fb2-a587-3c1796eb6fcd.png" alt="Charity Hero Banner">
+    <div class="hero-content">
+      <h1>Nourishing Lives, Nurturing Hope</h1>
+      <p>Join us in making a difference for families in need around the world.</p>
+      <a href="donate.html" class="cta-btn">Donate Now</a>
+    </div>
+  </section>
+
+  <!-- Impact Stats -->
+  <section class="impact">
+    <h2>Our Impact</h2>
+    <div class="stats">
+      <div class="stat">
+        <img src="impact1.png" alt="Meals Served">
+        <h3>85,000+</h3>
+        <p>Meals Served</p>
+      </div>
+      <div class="stat">
+        <img src="impact2.png" alt="Wells Built">
+        <h3>120+</h3>
+        <p>Wells Built</p>
+      </div>
+      <div class="stat">
+        <img src="impact3.png" alt="Families Helped">
+        <h3>10,000+</h3>
+        <p>Families Helped</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <img src="project1.png" alt="Food Aid">
+        <h3>Food Aid</h3>
+        <p>Delivering essential food supplies to communities in crisis.</p>
+        <a href="projects.html">Learn More</a>
+      </div>
+      <div class="project">
+        <img src="project2.png" alt="Clean Water">
+        <h3>Clean Water</h3>
+        <p>Building wells and providing safe water to those in need.</p>
+        <a href="projects.html">Learn More</a>
+      </div>
+      <div class="project">
+        <img src="project3.png" alt="Education">
+        <h3>Education</h3>
+        <p>Supporting children’s education for a brighter future.</p>
+        <a href="projects.html">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Help -->
+  <section class="help">
+    <h2>How You Can Help</h2>
+    <div class="help-options">
+      <div>
+        <img src="donate-icon.png" alt="Donate">
+        <h4>Donate</h4>
+        <p>Your support changes lives. Every donation counts.</p>
+      </div>
+      <div>
+        <img src="volunteer-icon.png" alt="Volunteer">
+        <h4>Volunteer</h4>
+        <p>Join our team and make a direct impact in the field.</p>
+      </div>
+      <div>
+        <img src="fundraise-icon.png" alt="Fundraise">
+        <h4>Fundraise</h4>
+        <p>Start a campaign and rally your community for good.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="newsletter">
+    <h2>Stay Updated</h2>
+    <form>
+      <input type="email" placeholder="Your email address" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Feed Hope Charity. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="social">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
